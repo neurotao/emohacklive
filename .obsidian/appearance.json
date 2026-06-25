@@ -1,0 +1,12 @@
+{
+  "accentColor": "#7c3aed",
+  "baseFontSize": 16,
+  "theme": "obsidian",
+  "cssTheme": "Default",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "enabledCssSnippets": [
+    "budismo"
+  ]
+}

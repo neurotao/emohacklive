@@ -1,0 +1,19 @@
+# === Copyright — NO subir a GitHub ===
+_fuentes/
+_data/texto_extraido/
+_data/*.bak*
+
+# === macOS ===
+.DS_Store
+**/.DS_Store
+
+# === Obsidian estado local ===
+.obsidian/workspace*
+.obsidian/graph.json
+.obsidian/cache
+
+# === Temporales ===
+*.tmp
+*~
+__pycache__/
+*.pyc

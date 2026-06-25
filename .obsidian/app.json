@@ -1,0 +1,23 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "_attachments",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showLineNumber": false,
+  "spellcheck": false,
+  "autoConvertHtml": true,
+  "strictLineBreaks": false,
+  "showInlineTitle": true,
+  "showFrontmatter": false,
+  "livePreview": true,
+  "readableLineLength": true,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true,
+  "smartMarkdownList": true,
+  "userIgnoreFilters": [
+    "_data/",
+    "Libros/",
+    "_data/"
+  ]
+}

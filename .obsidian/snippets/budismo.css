@@ -1,0 +1,69 @@
+/* Bóveda Budismo — Snippets personalizados */
+
+/* Mejorar legibilidad de citas (blockquotes) */
+.markdown-rendered blockquote {
+  border-left: 3px solid var(--text-accent);
+  background: var(--background-secondary);
+  padding: 0.8em 1.2em;
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* Tablas más compactas y legibles */
+.markdown-rendered table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2em 0;
+}
+.markdown-rendered th {
+  background: var(--background-modifier-border);
+  font-weight: 600;
+  text-align: left;
+  padding: 8px 12px;
+}
+.markdown-rendered td {
+  padding: 6px 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Tesis central (primer blockquote) más destacada */
+.markdown-rendered blockquote:first-of-type {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(124, 58, 237, 0.03));
+  border-left-color: var(--text-accent);
+  font-size: 1.05em;
+}
+
+/* Frontmatter oculto en modo lectura */
+.frontmatter {
+  display: none;
+}
+
+/* Headings con más respiración */
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.2em;
+}
+
+/* Links internos más visibles */
+.internal-link {
+  text-decoration: none;
+  border-bottom: 1px dashed var(--text-accent);
+}
+.internal-link:hover {
+  background: rgba(124, 58, 237, 0.1);
+  border-radius: 3px;
+}
+
+/* Tags con estilo píldora */
+.tag {
+  background: var(--text-accent);
+  color: white !important;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.85em;
+}

@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "path": "00 - Índice.md",
+      "ctime": 1719244800000,
+      "title": "🪷 Índice maestro"
+    },
+    {
+      "type": "file",
+      "path": "02 - Conceptos/Vacuidad (Shunyata).md",
+      "ctime": 1719244800000,
+      "title": "⭐ Vacuidad (concepto clave)"
+    },
+    {
+      "type": "file",
+      "path": "03 - Autores/geshe-kelsang-gyatso.md",
+      "ctime": 1719244800000,
+      "title": "👤 Geshe Kelsang (autor dominante)"
+    },
+    {
+      "type": "folder",
+      "path": "01 - Libros",
+      "ctime": 1719244800000,
+      "title": "📚 Todos los libros"
+    },
+    {
+      "type": "folder",
+      "path": "02 - Conceptos",
+      "ctime": 1719244800000,
+      "title": "🧠 Conceptos unificados"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "header-1",
+      "type": "text",
+      "text": "## 🔰 Principiante\n\nVerde — empezar acá",
+      "x": -200,
+      "y": -120,
+      "width": 300,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "01 - Libros/como-solucionar-nuestros-problemas-humanos.md",
+      "x": -200,
+      "y": 0,
+      "width": 300,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "01 - Libros/ocho-pasos-hacia-la-felicidad-el-modo-budista-de-amar.md",
+      "x": -200,
+      "y": 120,
+      "width": 300,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "01 - Libros/nuevo-manual-de-meditacion-the-new-meditation-handbook.md",
+      "x": -200,
+      "y": 240,
+      "width": 300,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "header-2",
+      "type": "text",
+      "text": "## 📖 Intermedio\n\nAmarillo — Lamrim y Bodhisattva",
+      "x": 200,
+      "y": -120,
+      "width": 300,
+      "height": 80,
+      "color": "3"
+    },
+    {
+      "id": "i1",
+      "type": "file",
+      "file": "01 - Libros/how-to-understand-the-mind-the-nature-and-power-of-the-gyats.md",
+      "x": 200,
+      "y": 0,
+      "width": 300,
+      "height": 80,
+      "color": "3"
+    },
+    {
+      "id": "i2",
+      "type": "file",
+      "file": "01 - Libros/corazon-de-la-sabiduria-un-comentario-al-sutra-del-corazon.md",
+      "x": 200,
+      "y": 120,
+      "width": 300,
+      "height": 80,
+      "color": "3"
+    },
+    {
+      "id": "i3",
+      "type": "file",
+      "file": "01 - Libros/entering-the-middle-way-madhyamakavatara-candrakirti-thupten.md",
+      "x": 200,
+      "y": 240,
+      "width": 300,
+      "height": 80,
+      "color": "3"
+    },
+    {
+      "id": "header-3",
+      "type": "text",
+      "text": "## 🔶 Avanzado (Sutra)\n\nNaranja — filosofía y tantra base",
+      "x": 600,
+      "y": -120,
+      "width": 300,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "a1",
+      "type": "file",
+      "file": "01 - Libros/tantric-grounds-and-paths-how-to-enter-progress-on-and-geshe-kelsang-g.md",
+      "x": 600,
+      "y": 0,
+      "width": 300,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "a2",
+      "type": "file",
+      "file": "01 - Libros/clear-light-of-bliss-mahamudra-in-vajrayana-buddhism-a-kelsang-gyatso-.md",
+      "x": 600,
+      "y": 120,
+      "width": 300,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "header-4",
+      "type": "text",
+      "text": "## 🔥 Tantra\n\nRojo — requiere iniciación",
+      "x": 1000,
+      "y": -120,
+      "width": 300,
+      "height": 80,
+      "color": "1"
+    },
+    {
+      "id": "t1",
+      "type": "file",
+      "file": "01 - Libros/the-new-guide-to-dakini-land-the-highest-yoga-tantra-kelsang-gyatso-19.md",
+      "x": 1000,
+      "y": 0,
+      "width": 300,
+      "height": 80,
+      "color": "1"
+    },
+    {
+      "id": "t2",
+      "type": "file",
+      "file": "01 - Libros/the-oral-instructions-of-mahumudra-the-very-essence-of-geshe-kelsang-g.md",
+      "x": 1000,
+      "y": 120,
+      "width": 300,
+      "height": 80,
+      "color": "1"
+    },
+    {
+      "id": "t3",
+      "type": "file",
+      "file": "01 - Libros/the-extremely-secret-dakini-of-naropa-vajrayogini-practice-pabongkha-d.md",
+      "x": 1000,
+      "y": 240,
+      "width": 300,
+      "height": 80,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-p1-p2",
+      "fromNode": "p1",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p2-p3",
+      "fromNode": "p2",
+      "fromSide": "bottom",
+      "toNode": "p3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-i1-i2",
+      "fromNode": "i1",
+      "fromSide": "bottom",
+      "toNode": "i2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-i2-i3",
+      "fromNode": "i2",
+      "fromSide": "bottom",
+      "toNode": "i3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-a1-a2",
+      "fromNode": "a1",
+      "fromSide": "bottom",
+      "toNode": "a2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-t1-t2",
+      "fromNode": "t1",
+      "fromSide": "bottom",
+      "toNode": "t2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-t2-t3",
+      "fromNode": "t2",
+      "fromSide": "bottom",
+      "toNode": "t3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p3-i1",
+      "fromNode": "p3",
+      "fromSide": "right",
+      "toNode": "i1",
+      "toSide": "left",
+      "label": "profundizar"
+    },
+    {
+      "id": "e-i3-a1",
+      "fromNode": "i3",
+      "fromSide": "right",
+      "toNode": "a1",
+      "toSide": "left",
+      "label": "avanzar"
+    },
+    {
+      "id": "e-a2-t1",
+      "fromNode": "a2",
+      "fromSide": "right",
+      "toNode": "t1",
+      "toSide": "left",
+      "label": "sutra→tantra"
+    }
+  ]
+}
